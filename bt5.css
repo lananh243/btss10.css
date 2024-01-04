@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;1,600;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.form {
+    background-color: white;
+    padding: 20px 24px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.form-label {
+    font-weight: 700;
+}
+.form-input {
+    height: 36px;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    width: 400px;
+    gap: 40px;
+}
+.form-input:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.text{
+    background-color: white;
+    padding: 20px 24px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 8px;
+    border: 1px solid #dadada;
+}
+.text:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+}
+.button {
+    height: 36px;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.button-blue{
+    background-color: blue;
+    color: white;
+}
